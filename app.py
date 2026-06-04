@@ -70,7 +70,7 @@ if halaman == "Tentang Saya":
     with kolom_kiri:
         # Foto profil bulat dengan border pink tebal sesuai gambar.
         # Sementara pakai link gambar contoh (placeholder). Kamu bisa ganti url ini nanti.
-        link_foto_kamu = "D:\portofolio_streamlit_elmira\IMG_8828.JPG.jpeg" 
+        link_foto_kamu = "D:\portofolio_streamlit_elmira\10.jpeg" 
         
         st.markdown(
             f"""
