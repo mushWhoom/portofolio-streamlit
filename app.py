@@ -69,7 +69,7 @@ if halaman == "Tentang Saya":
     kolom_kiri, kolom_kanan = st.columns([1, 2])
     
     with kolom_kiri:
-    st.image("10.jpeg", width=170)
+        st.image("10.jpeg", width=170)
         
     with kolom_kanan:
         # Nama, Tagline, dan Tombol Kontak
