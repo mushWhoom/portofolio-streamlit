@@ -95,20 +95,20 @@ if halaman == "Tentang Saya":
     # 1. Experience & Qualifications
     st.markdown("## Experience & Qualifications")
     st.markdown("""
-    ✔️ Memiliki pemahaman kuat dalam dasar-dasar statistika, matematika, dan aplikasinya pada data.
-    ✔️ Berpengalaman praktis dalam pemrograman Python dan manipulasi data menggunakan Pandas & NumPy.
-    ✔️ Memahami alur kerja MLOps (End-to-End) mulai dari pelatihan model hingga deployment.
-    ✔️ Mampu bekerja sama dengan baik di dalam tim serta memiliki inisiatif tinggi dalam pemecahan masalah.
+    ✔️ Memiliki pemahaman kuat dalam dasar-dasar statistika, matematika, dan aplikasinya pada data.\n
+    ✔️ Berpengalaman praktis dalam pemrograman Python dan manipulasi data menggunakan Pandas & NumPy.\n
+    ✔️ Memahami alur kerja MLOps (End-to-End) mulai dari pelatihan model hingga deployment.\n
+    ✔️ Mampu bekerja sama dengan baik di dalam tim serta memiliki inisiatif tinggi dalam pemecahan masalah.\n
     """)
     st.write("---")
 
     # 2. Hard Skills
     st.markdown("## Hard Skills")
     st.markdown("""
-    💻 **Programming:** Python (Scikit-learn, Pandas), SQL, VBA
-    📊 **Data Visualization:** Streamlit, Matplotlib, Seaborn, Plotly
-    🤖 **Modeling:** Linear Regression, Logistic Regression, Decision Trees
-    🗄️ **Databases:** MySQL, PostgreSQL
+    💻 **Programming:** Python (Scikit-learn, Pandas), SQL, VBA\n
+    📊 **Data Visualization:** Streamlit, Matplotlib, Seaborn, Plotly\n
+    🤖 **Modeling:** Linear Regression, Logistic Regression, Decision Trees\n
+    🗄️ **Databases:** MySQL, PostgreSQL\n
     """)
     st.write("---")
 
