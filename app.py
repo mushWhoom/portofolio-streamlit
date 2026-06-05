@@ -69,27 +69,7 @@ if halaman == "Tentang Saya":
     kolom_kiri, kolom_kanan = st.columns([1, 2])
     
     with kolom_kiri:
-        link_foto_kamu = r"D:\portofolio_streamlit_elmira\10.jpeg"
-    
-    with open(link_foto_kamu, "rb") as image_file:
-        encoded_string = base64.b64encode(image_file.read()).decode()
-    
-    link_foto_kamu = f"data:image/jpeg;base64,{encoded_string}"
-    st.markdown(
-        f"""
-        <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
-            <img src="{link_foto_kamu}" style="
-                border-radius: 50%;
-                border: 6px solid #d81b60; 
-                width: 170px;
-                height: 170px;
-                object-fit: cover;
-                box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-            ">
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
+    st.image("10.jpeg", width=170)
         
     with kolom_kanan:
         # Nama, Tagline, dan Tombol Kontak
